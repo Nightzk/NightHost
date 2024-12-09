@@ -1,0 +1,67 @@
+:root {
+    --yellow: #FFD700;
+    --light-gray: #F0F0F0;
+    --dark-gray: #333;
+    --black: #000;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--light-gray);
+    color: var(--dark-gray);
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: var(--black);
+    color: var(--yellow);
+    padding: 1em 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--yellow);
+    font-weight: bold;
+}
+
+.about, .plans, .payment {
+    padding: 2em;
+    text-align: center;
+}
+
+.plan {
+    background-color: var(--yellow);
+    color: var(--black);
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 8px;
+    max-width: 400px;
+}
+
+.footer {
+    background-color: var(--black);
+    color: var(--yellow);
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
